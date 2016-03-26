@@ -1,6 +1,6 @@
 {
   "name": "bet-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "BETool logger",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/BETool/bet-logger/issues"
   },
   "homepage": "https://github.com/BETool/bet-logger#readme",
-  "devDependencies": {
+  "dependencies": {
     "debug": "^2.2.0"
   }
 }
