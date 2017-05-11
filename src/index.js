@@ -1,3 +1,7 @@
+/* global window:true */
+
+'use strict';
+
 import debug from 'debug';
 
 export default class BetLogger {
@@ -14,8 +18,8 @@ export default class BetLogger {
   }
 
   log (...args) {
-    if (localStorage && localStorage.debug) {
+    if (window.localStorage && window.localStorage.debug) {
       console.log(this.seed, ...args);
     }
   }
-};
+}
